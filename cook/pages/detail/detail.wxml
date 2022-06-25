@@ -1,0 +1,9 @@
+<view class="title">{{items.dishName}}</view>
+<view wx:for="{{items.cal}}" wx:key="id">配料:{{item}}</view>
+<view wx:for="{{items.oper}}" wx:key="id">步骤{{index+1}}:{{item}}</view>
+<view wx:for="{{items.addcon}}" wx:key="id">
+注意事项:{{item}}
+</view>
+<image class="img" src="{{src}}" bindtap="onCollection"></image>
+
+

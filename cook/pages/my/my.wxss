@@ -1,0 +1,74 @@
+/* pages/my/my.wxss */
+
+  .box{
+    margin-left: 25%;
+    font-size: 40rpx;
+    font-weight: 600;
+    margin-top: 5%;
+  }
+  
+  .user-information {
+    display: flex;
+    padding: 48rpx 24rpx;
+    margin: 24rpx 24rpx 0;
+    background: #68501f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #705f42, #805b17);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6ea890, #6eaf9f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #e2eee7bd;
+    border-radius: 16rpx;
+}
+
+.user-information_img {
+    position: relative;
+    width: 140rpx;
+    height: 140rpx;
+    border-radius: 50%;
+    border: 4rpx solid #832237;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    margin-right: 32rpx;
+    overflow: hidden;
+}
+.nickname {
+  flex: 1;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-information_nickname {
+  font-size: 44rpx;
+  font-weight: bold;
+  line-height: 60rpx;
+  color: #17e254;
+}
+
+.user-information_introduction {
+  font-size: 30rpx;
+  line-height: 40rpx;
+  color: #4f09d1;
+  margin-top: 10rpx;
+  opacity: .8;
+}
+
+   .p-4 image{
+    width:60rpx;
+    height:60rpx;
+    vertical-align:middle;
+
+   }
+   .p-4{
+       padding-bottom: 0!important;
+       padding-top: 28rpx;
+       background-color: #ffffff;
+   }
+   .p-4 button{
+    background-color: #ffffff !important;
+    
+   }
+   button::after{
+    border:none;
+  }
+   
+  

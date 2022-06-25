@@ -1,0 +1,16 @@
+/* components/caipuList/caipuList.wxss */
+.caipu-list{
+    text-align:center;
+}
+.ui-card-image{
+    height: 100% !important;
+    width: 100% !important;
+    overflow: hidden !important;
+}
+.ui-card-main{
+    height:400rpx !important;
+    width: 800rpx !important;
+}
+.title{
+    width: 666rpx !important;
+}

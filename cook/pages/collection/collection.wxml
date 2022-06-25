@@ -1,0 +1,2 @@
+<!--pages/collection/collection.wxml-->
+<my-list caipu="{{caipu}}" ></my-list>

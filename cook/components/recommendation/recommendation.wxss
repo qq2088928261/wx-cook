@@ -1,0 +1,14 @@
+/* components/recommendation/recommendation.wxss */
+.van-grid-item{
+    border: 2rpx #F4F4F4 solid;
+}
+/* view{
+    text-align: center;
+} */
+
+
+.van-grid-item__text {
+    white-space: nowrap !important;
+    overflow:hidden !important;
+    text-overflow:ellipse !important;
+}

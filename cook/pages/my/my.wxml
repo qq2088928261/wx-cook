@@ -1,0 +1,33 @@
+<!--pages/my/my.wxml-->
+<view class="user-information relative" bindtap="getUserInfo">
+    <view wx:if="{{isUserInfo}}" class="user-information_img">
+        <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <image wx:else class="user-information_img" src="/images/3.1我的.png"></image>
+    <view class="nickname">
+
+        <view class="user-information_nickname">{{isUserInfo?nickName:'游客'}}<open-data type="userNickName" wx:if="{{isUserInfo}}"></open-data>
+        </view>
+        <view class="user-information_introduction">{{isUserInfo?'菜谱欢迎您!':'点击这里授权登录'}}</view>
+    </view>
+</view>
+
+<view class="box">
+    <view>每天让厨艺进步一点点</view>
+</view>
+
+<view class="p-4">
+    <button class="ui-btn block shadow-sm" open-type="share">
+        <image src="/images/分享.png"></image>分享朋友
+    </button>
+</view>
+<view class="p-4">
+    <button class="ui-btn block shadow-sm" bindtap="toLianXi">
+        <image src="/images/咨询 (2).png"></image>关于我们
+    </button>
+</view>
+<view class="p-4">
+    <button class="ui-btn block shadow-sm" bindtap="go">
+        <image src="/images/vip-line (1).png"></image>联系客服
+    </button>
+</view>

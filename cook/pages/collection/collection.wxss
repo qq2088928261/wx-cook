@@ -1,0 +1,4 @@
+/* pages/collection/collection.wxss */
+page{
+    padding-bottom: 100rpx;
+}

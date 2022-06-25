@@ -1,0 +1,51 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/classify/classify",
+        "pages/collection/collection",
+        "pages/my/my",
+        "pages/detail/detail",
+        "pages/contact/contact"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "菜谱",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "custom": true,
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "./images/主页 (1).png",
+                "selectedIconPath": "./images/主页 (2).png"
+            },
+            {
+                "pagePath": "pages/classify/classify",
+                "text": "分类",
+                "iconPath": "./images/分类.png",
+                "selectedIconPath": "./images/分类 (1).png"
+            },
+            {
+                "pagePath": "pages/collection/collection",
+                "text": "收藏",
+                "iconPath": "./images/_收藏1小.png",
+                "selectedIconPath": "./images/_收藏1(1).png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "./images/3.1我的.png",
+                "selectedIconPath": "./images/3.1我的 (1).png"
+            }
+        ]
+    },
+    "usingComponents": {
+        "van-tabbar": "@vant/weapp/tabbar/index",
+        "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+        "ui-sys": "mp-cu/colorUI/components/ui-sys/ui-sys"
+    }
+}

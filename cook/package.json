@@ -1,0 +1,25 @@
+{
+  "name": "cook",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qq2088928261/wx-cook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qq2088928261/wx-cook/issues"
+  },
+  "homepage": "https://github.com/qq2088928261/wx-cook#readme",
+  "description": "",
+  "dependencies": {
+    "@vant/weapp": "^1.10.3",
+    "mobx-miniprogram": "^4.13.2",
+    "mobx-miniprogram-bindings": "^2.1.5"
+  }
+}

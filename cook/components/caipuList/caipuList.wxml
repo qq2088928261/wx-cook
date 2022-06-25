@@ -1,0 +1,4 @@
+<!--components/caipuList/caipuList.wxml-->
+<view wx:for="{{caipu}}" wx:key="id">                                                    
+<ui-card ui="shadow m-3 radius" img="{{item.src}}" title="{{item.name}}" data-id="{{item.id}}" desc="" fixedTitle bindtap="onDetail"/>
+</view>

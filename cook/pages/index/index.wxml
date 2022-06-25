@@ -1,0 +1,5 @@
+<!--pages/message/message.wxml-->
+<my-swiper listData="{{listData}}"></my-swiper>
+<my-recommendation listData="{{listData}}"></my-recommendation>
+<my-caipuList caipu="{{caipu}}" class="caipu-list"></my-caipuList>
+

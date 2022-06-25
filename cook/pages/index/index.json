@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+      "my-swiper":"../../components/swiper/swiper",
+      "my-recommendation":"../../components/recommendation/recommendation",
+      "my-caipuList":"../../components/caipuList/caipuList"
+  }
+}

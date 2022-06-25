@@ -1,0 +1,11 @@
+/* pages/detail/detail.wxss */
+.title{
+    text-align: center;
+}
+.img{
+    height: 60rpx;
+    width: 60rpx;
+    position:absolute;
+    top:0;
+    right: 0;
+}

@@ -1,0 +1,16 @@
+<!--components/recommendation/recommendation.wxml-->
+<view>每日推荐</view>
+<van-grid>
+<view wx:for="{{listData.recommendation}}" wx:key="id">
+
+  <!-- <van-grid-item icon="{{item.src}}" text="{{item.name}}" /> -->
+  <van-grid-item
+    icon="{{item.src}}"
+    link-type="navigateTo"
+    url="/pages/detail/detail?id={{item.id}}  "
+    text="{{item.name}}"
+    
+    
+  />
+</view>
+</van-grid>
