@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.example.htc.mapper.DishMapper">
+
+    <select id="getById" resultType="Dish">
+        select * from dishes where id = #{id}
+    </select>
+
+    <select id="getAllVegetable" resultType="Dish">
+        select * from dishes where type = '0'
+    </select>
+
+    <select id="getFourDish" resultType="Dish">
+        select * from dishes order by rand() limit 4
+    </select>
+
+    <select id="getAllSoup" resultType="Dish">
+        select * from dishes where type = '2'
+    </select>
+
+    <select id="getAllMeat" resultType="Dish">
+        select * from dishes where type = '1'
+    </select>
+
+    <select id="getFuzzyQuery" resultType="Dish">
+        select * from dishes where dish_name like
+        concat('%',#{str},'%')
+    </select>
+
+    <select id="getTenDish" resultType="Dish">
+        select * from dishes order by rand() limit 10
+    </select>
+
+    <select id="getFiveImg" resultType="Dish">
+        select * from dishes order by rand() limit 5
+    </select>
+
+</mapper>

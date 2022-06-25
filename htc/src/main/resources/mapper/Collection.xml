@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.htc.mapper.collectMapper">
+    <insert id="insertCollection" parameterType="collect" >
+         insert into collection(username,dishid) values(#{username},#{dishid})
+     </insert>
+
+    <delete id="deleteCollection" parameterType="collect">
+        delete from collection where dishid=#{dishid} and username=#{username}
+    </delete>
+
+    <select id="findid" resultType="collect" parameterType="collect">
+        select * from collection  where dishid=#{dishid} and username=#{username}
+    </select>
+
+    <select id="getdishid"  resultType="int" parameterType="String" >
+        select  dishid from collection  where  username=#{username}
+    </select>
+
+</mapper>
